@@ -2,7 +2,7 @@
 Bài tập giữa kỳ môn AI ứng dụng ANN và CNN để nhận diện khuông mặt và tính toán động học ngược cho robot 2-3 bậc tự do
 
 #**Yêu cầu bài toán:**
-##**Bài 1: Sử dụng ANN tự nhận diện khuôn mặt bản thân**
+##**Bài 1: Sử dụng ANN tự nhận diện khuôn mặt bản thân**  
   - Size ảnh: 150, 150
   - Chụp khoảng từ 30 - 60 tấm ảnh
 ##**Bài 2: Tính toán bài toán động học ngược cho robot 2 bậc tự do**
