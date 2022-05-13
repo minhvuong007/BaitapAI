@@ -102,7 +102,7 @@ x = l1*m.cos(t1) + l2*m.cos(t1+t2) + l3*m.cos(t1+t2+t3)
 y = l1*m.sin(t1) + l2*m.sin(t1+t2) + l3*m.sin(t1+t2+t3)
 beta = (t1 + t2 + t3)*180/3.14
 
-print("Model dự đoán với giá trị đầu vào x = 90, y = 0 và beta = 45 là t1 = " + str(t1) + " t2 = "+ str(t2) + " t3 = "+ str(t3))
-print("Kiểm tra: ")
+print("Input x = 90, y = 0 và beta = 45 là t1 = " + str(t1) + " t2 = "+ str(t2) + " t3 = "+ str(t3))
+print("Test: ")
 print("Với giá trị t1 và t2 dự đoán ta tính lại x = " + str(x) + " y = "+ str(y)+ " beta = "+ str(beta))
 ```
