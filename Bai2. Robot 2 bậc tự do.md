@@ -82,7 +82,7 @@ model.add(Dense(2, activation='linear'))
 
 model.compile(loss='mae', optimizer =tf.optimizers.Adam(learning_rate=0.0001))
 
-history = model.fit(x_train, y_train, batch_size = 512, epochs = 10, validation_split = 0.2)
+history = model.fit(x_train, y_train, batch_size = 512, epochs = 50, validation_split = 0.2)
 
 plot_reg_history(history)
 
@@ -97,7 +97,7 @@ t2 = model.predict(test)[0][1]
 x = l1*m.cos(t1) + l2*m.cos(t2+t1)
 y = l1*m.sin(t1) + l2*m.sin(t2+t1)
 
-print("Model dự đoán với giá trị đầu vào x = 90 và y = 0 là t1 = " + str(t1) + " t2 = "+ str(t2))
-print("Kiểm tra: ")
-print("Với giá trị t1 và t2 dự đoán ta tính lại x = " + str(x) + " y = "+ str(y))
+print("Input x = 90 và y = 0 là t1 = " + str(t1) + " t2 = "+ str(t2))
+print("Test: ")
+print("Output x = " + str(x) + " y = "+ str(y))
 ```
