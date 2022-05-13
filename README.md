@@ -9,12 +9,15 @@ Bài tập giữa kỳ môn AI ứng dụng ANN và CNN để nhận diện khu�
   - Các thông số: l1 = 40, l2 = 50
   - Động học thuận: Px = l1c1 + l2c12
                     Py = l2s1 + l2s12
-    Px, Py: tọa độ đầu công tác robot
+  - Input: Px, Py: tọa độ đầu công tác robot
+  - Ouput: theta1, theta2
 **Bài 3: Tính toán bài toán động học ngược cho robot 2 bậc tự do**
   - Các thông số: l1 = 40, l2 = 50, l3 = 20
   - Động học thuận: Px = l1c1 + l2c12 + l3c123
                     Py = l2s1 + l2s12 + l3s123
-    Px, Py: tọa độ đầu công tác robot
+                    alpha = t1 + t2 + t3
+  - Input: Px, Py, alpha
+  - Ouput: theta1, theta2, theta3 ---
 **Bài 4: Sử dụng CNN nhận diện khuôn mặt nhóm 3 người**
   - Size ảnh: 150, 150
   - Chụp khoảng 30 - 60 ảnh mỗi người
